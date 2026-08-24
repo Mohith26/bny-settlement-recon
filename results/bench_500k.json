@@ -1,0 +1,27 @@
+{
+  "n_trades": 500000,
+  "seed": 42,
+  "python": "3.9.6",
+  "machine": "arm64",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "generate_seconds": 1.4207,
+  "pipeline_seconds": 2.2559,
+  "trades_per_second": 221641.2,
+  "settled": 498020,
+  "failed": 1980,
+  "recon_seconds": 0.6522,
+  "clean_recon": true,
+  "clean_diff_count": 0,
+  "clean_break_count": 0,
+  "dirty_recon_seconds": 0.498,
+  "breaks_injected": 75,
+  "breaks_detected": 75,
+  "classification_exact_match": true,
+  "detected_counts": {
+    "missed_settle": 25,
+    "wrong_amount": 25,
+    "duplicate_posting": 25
+  },
+  "false_positives": 0,
+  "false_negatives": 0
+}
